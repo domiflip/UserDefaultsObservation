@@ -18,7 +18,7 @@ public class UbiquitousKeyValueStoreUtility {
     private var observerAdded = false
     
     // Make this a singleton
-    static public let shared = UbiquitousKeyValueStoreUtility()
+    @MainActor static public let shared = UbiquitousKeyValueStoreUtility()
     private init() {
         addDidChangeExternallyNotificationObserver()
         synchronize()
