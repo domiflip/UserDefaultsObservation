@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // UPDATED: Depend on the Swift 6 version of SwiftSyntax to match SwiftLint requirements
-        .package(url: "https://github.com/swiftlang/swift-syntax", from: "600.0.0"),
+        .package(url: "https://github.com/swiftlang/swift-syntax", from: "603.0.0-prerelease-2025-09-15"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
